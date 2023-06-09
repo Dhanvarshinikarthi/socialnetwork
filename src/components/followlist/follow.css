@@ -1,0 +1,86 @@
+.profile img {
+  width: 30px;
+  height: 30px;
+}
+.follow_main {
+  box-shadow: 2px 2px 5px black;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.followcards_main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.followcardslist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.followprofile_main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 15px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.profilepage {
+  display: flex;
+  flex-direction: column;
+}
+.profilepage > p {
+  color: grey;
+  padding: 10px 0;
+}
+.profilepage > p {
+  font-size: 15px;
+  color: blue;
+}
+
+.followcards {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+#message {
+  background-color: rgb(89, 232, 248);
+  border: none;
+  font-size: 15px;
+}
+#accept {
+  font-size: 15px;
+  border-color: rgb(6, 255, 255);
+  color: rgb(0, 162, 255);
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+}
+.heading > img {
+  height: 25x;
+  width: 70px;
+  padding: 10px;
+  border-radius: 40%;
+}
+.follow_user {
+  border-radius: 50%;
+  background-color: rgb(226, 225, 225);
+  width: 100px;
+  height: 120px;
+}
+.followprofile_main > p {
+  font-size: 15px;
+}

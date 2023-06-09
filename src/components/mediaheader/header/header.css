@@ -1,0 +1,138 @@
+.header_main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  background-color: white;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+.header_main > h1 {
+  border: 2px solid lightskyblue;
+  color: white;
+  background-color: lightskyblue;
+  padding: 4px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+.header_link {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  gap: 60px;
+}
+.header_link a {
+  font-size: 25px;
+}
+
+.header_link a:hover {
+  color: blue;
+}
+.header_main > button {
+  padding: 10px;
+  color: white;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.header_main button:active {
+  color: blue;
+}
+.searchbar img {
+  width: 25px;
+  height: 20px;
+  padding: 3px 0;
+}
+.searchbar > button {
+  background-color: rgb(171, 211, 235);
+  border: none;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row;
+}
+input {
+  padding: 4px;
+}
+#searchbarfield {
+  outline: none;
+}
+.createpost img {
+  border-radius: 50%;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+.createpost > button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.addpost {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+#chatimg {
+  background: none;
+}
+.hamimage {
+  display: none;
+}
+.sidebar {
+  display: none;
+  background-image: linear-gradient(white, lightskyblue);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  padding: 20px;
+}
+.sidebar_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.sidebar_content a {
+  color: black;
+  font-size: 25px;
+}
+@media (max-width: 920px) {
+  .hamimage {
+    display: block;
+    cursor: pointer;
+  }
+  .sidebar {
+    display: block;
+    cursor: pointer;
+  }
+  .header_link {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header_main {
+    flex-wrap: wrap;
+  }
+  a {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .header_main {
+    flex-wrap: wrap;
+  }
+  a {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,65 @@
+.recent_main > img {
+  width: 70px;
+  border-radius: 70%;
+  height: 60px;
+}
+
+.recentbio {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.recentbio > h2 {
+  color: blue;
+}
+.recent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+.recent_main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.recentcards_main {
+  box-shadow: 2px 2px 5px black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.recent_profile {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+.recent_profile > h5 {
+  font-size: 20px;
+  color: grey;
+}
+.recentcards_main > h1 {
+  color: blue;
+}
+.recent p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+@media (max-width: 1286px) {
+  .recentcards {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .profile {
+    gap: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .profile {
+    gap: 100px;
+  }
+}

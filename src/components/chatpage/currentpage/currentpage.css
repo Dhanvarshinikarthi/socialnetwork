@@ -1,0 +1,172 @@
+.userbio img {
+  width: 40px;
+}
+.userbio {
+  display: flex;
+  flex-direction: row;
+}
+.currentchat {
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 5px;
+  width: 70%;
+  position: relative;
+  z-index: -1;
+}
+.chatprofile {
+  box-shadow: 2px 2px 5px black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  gap: 30px;
+}
+.mychat b,
+.oppchat b {
+  font-size: 20px;
+}
+.userimage {
+  border-radius: 50%;
+  border: 2px solid rgb(230, 228, 228);
+  background-color: rgb(230, 228, 228);
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+#desgin {
+  color: blue;
+  font-size: 20px;
+}
+#descrip {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  text-align: justify;
+}
+.chatprofile h4 {
+  font-size: 20px;
+}
+.chatposts {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.chatposts > button {
+  font-size: 18px;
+  padding: 5px 15px;
+  color: blue;
+  background-color: aquamarine;
+  border: none;
+}
+#active {
+  font-size: 20px;
+  padding: 10px;
+  color: blue;
+  border-color: blue;
+  background: none;
+}
+.mychat,
+.oppchat {
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+.messagefield {
+  box-shadow: 2px 2px 5px black;
+  background-color: rgb(213, 251, 238);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: flex-end;
+}
+
+#textbox {
+  font-size: 20px;
+  width: 480px;
+}
+.messagebox > button img {
+  width: 50px;
+}
+.messagebox {
+  display: flex;
+  flex-direction: row;
+}
+.messagebox button {
+  border: none;
+}
+.oppchat {
+  margin: 0 260px 0 0;
+}
+.chatposts b,
+.chatposts p {
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .currentchat {
+    flex-wrap: wrap;
+  }
+  .mychat,
+  .oppchat {
+    width: 200px;
+    font-size: 17px;
+  }
+  .messagefield {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .currentchat {
+      flex-wrap: wrap;
+    }
+    .mychat,
+    .oppchat {
+      width: 250px;
+      font-size: 17px;
+    }
+    .messagefield {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      width: 100%;
+    }
+    .mychat {
+      margin: 0 0 0 370px;
+    }
+    #textbox {
+      width: 600px;
+    }
+  }
+  @media (max-width: 480px) {
+    .currentchat {
+      flex-wrap: wrap;
+    }
+    .mychat,
+    .oppchat {
+      width: 200px;
+      font-size: 17px;
+    }
+    .messagefield {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      width: 100%;
+    }
+    .mychat {
+      margin: 0 0 0 170px;
+    }
+    #textbox {
+      width: 330px;
+    }
+  }
+}

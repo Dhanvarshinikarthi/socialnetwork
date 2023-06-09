@@ -1,0 +1,42 @@
+.userprofilepage {
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  gap: 10px;
+  width: 100%;
+}
+.userprofilepage img {
+  width: 200px;
+  border-radius: 50%;
+}
+.userprofilepage > h2,
+.userprofilepage > h5 {
+  font-size: 20px;
+  padding: 10px;
+}
+.userprofilepage h4 {
+  font-size: 18px;
+  color: rgb(0, 174, 255);
+}
+.userprofilepage > p {
+  font-size: 18px;
+}
+#para {
+  padding: 10px 0 0 0;
+}
+#edit {
+  font-size: 20px;
+  padding: 5px;
+  color: rgb(0, 187, 255);
+  border-color: rgb(0, 195, 255);
+}
+.userprofileimage {
+  border-radius: 50%;
+  border: 2px solid rgb(230, 228, 228);
+  background-color: rgb(230, 228, 228);
+  width: 100px;
+  height: 100px;
+}

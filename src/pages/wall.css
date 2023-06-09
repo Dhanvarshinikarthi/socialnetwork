@@ -1,0 +1,14 @@
+.wall_list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+}
+.wallcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}

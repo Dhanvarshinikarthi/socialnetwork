@@ -1,0 +1,37 @@
+.chatpage_main {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+@media (max-width: 1286px) {
+  .chatpage_main {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .cards_main {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .chatpage_main {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .cards_main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .chatpage_main {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .cards_main {
+    width: 100%;
+  }
+}

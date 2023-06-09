@@ -1,0 +1,101 @@
+.newsfeed_main {
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+  padding: 10px 0;
+}
+.newsfeedheader_main {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 590px;
+}
+.myprofile {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.myprofile > img {
+  width: 60px;
+  height: 50px;
+}
+span {
+  color: black;
+  font-size: 20px;
+}
+.myprofile p {
+  color: grey;
+  font-size: 18px;
+}
+.newsfeedheader_main > #viralbtn {
+  font-size: 30px;
+  border: none;
+  background-image: linear-gradient(rgb(64, 184, 232), white);
+}
+.newsfeedheader_main > #viralbtn:active {
+  color: white;
+}
+.heropage {
+  background-image: url(../../assets/images/bgimage.jpg);
+  background-size: 100% 100%;
+  height: 350px;
+  width: 1050px;
+}
+.bio {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 30px;
+}
+.description,
+.views {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.description > h5 {
+  font-size: 20px;
+}
+.posts img {
+  width: 25px;
+}
+.posts b {
+  color: black;
+}
+.posts {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding: 0 70px;
+}
+.posts > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.posts button {
+  border: none;
+  font-size: 15px;
+  background-color: white;
+  color: grey;
+}
+.posts > button:hover {
+  color: blue;
+}
+.like,
+.tweet,
+.posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reactions {
+  display: flex;
+  gap: 100px;
+}
+#add {
+  border: 2px solid grey;
+  padding: 10px;
+}
+.description > p {
+  font-size: 15px;
+}
