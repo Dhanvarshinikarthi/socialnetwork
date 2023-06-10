@@ -14,11 +14,13 @@ const Wall = () => {
         <Profile />
         <News />
       </div>
-      <div>
-        <Newsfeed />
-        <Newsfeed />
+      <div className="wall_news">
+        <div>
+          <Newsfeed />
+          <Newsfeed />
+        </div>
+        <Follow />
       </div>
-      <Follow />
     </div>
   );
 };

@@ -14,6 +14,7 @@
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
   .chatpage_main {
     flex-wrap: wrap;

@@ -51,7 +51,7 @@
   flex-direction: row;
   gap: 100px;
 }
-#message {
+#msgbox {
   background-color: rgb(89, 232, 248);
   border: none;
   font-size: 15px;
@@ -83,4 +83,89 @@
 }
 .followprofile_main > p {
   font-size: 15px;
+}
+@media (max-width: 1608px) {
+  .follow_main {
+    width: 1030px;
+  }
+  .heading {
+    width: 1030px;
+  }
+  .profile > h2 {
+    font-size: 30px;
+  }
+  .followprofile_main {
+    gap: 600px;
+  }
+  .followprofile_main > p {
+    font-size: 20px;
+  }
+  .profilepage > p {
+    font-size: 20px;
+  }
+  .followcards {
+    gap: 300px;
+  }
+  .follow_main {
+    gap: 60px;
+  }
+}
+@media (max-width: 1433px) {
+  .follow_main {
+    width: 92%;
+  }
+  .heading {
+    width: 92%;
+  }
+}
+@media (max-width: 1223px) {
+  .follow_main {
+    width: 100%;
+  }
+}
+@media (max-width: 1073px) {
+  .follow_main {
+    width: 100%;
+  }
+  .followprofile_main {
+    gap: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .follow_main {
+    width: 110%;
+  }
+  .heading {
+    width: 110%;
+  }
+}
+@media (max-width: 734px) {
+  .follow_main {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .follow_main {
+    width: 90%;
+  }
+  .heading {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .followprofile_main {
+    gap: 100px;
+  }
+  .followcards {
+    gap: 100px;
+  }
+  .follow_main {
+    width: 85%;
+  }
+  .heading {
+    width: 85%;
+  }
 }

@@ -12,3 +12,18 @@
   gap: 10px;
   width: 70%;
 }
+.wall_news {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+@media (max-width: 1608px) {
+  .wall_news {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1433px) {
+  .wall_list {
+    flex-wrap: wrap;
+  }
+}

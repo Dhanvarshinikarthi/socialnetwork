@@ -40,3 +40,23 @@
   width: 100px;
   height: 100px;
 }
+@media (max-width: 1433px) {
+  .userprofilepage {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .userprofilepage {
+    width: 140%;
+  }
+}
+@media (max-width: 637px) {
+  .userprofilepage {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .userprofilepage {
+    width: 500px;
+  }
+}

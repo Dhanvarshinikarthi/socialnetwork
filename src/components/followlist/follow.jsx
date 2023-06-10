@@ -97,7 +97,7 @@ const Follow = () => {
           <p>{item.bio}</p>
           <div className="followcards">
             <div className="text">
-              <button id="message">{item.chats}</button>
+              <button id="msgbox">{item.chats}</button>
             </div>
             <button id="accept" onClick={() => Handlefollow(item.id)}>
               {item.followed ? "Unfollow" : "Follow"}

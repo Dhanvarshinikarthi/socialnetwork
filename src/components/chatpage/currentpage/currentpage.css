@@ -12,8 +12,6 @@
   background-color: white;
   padding: 5px;
   width: 70%;
-  position: relative;
-  z-index: -1;
 }
 .chatprofile {
   box-shadow: 2px 2px 5px black;
@@ -109,6 +107,77 @@
 .chatposts p {
   font-size: 20px;
 }
+@media (max-width: 1462px) {
+  .chatpage_main {
+    flex-wrap: wrap;
+  }
+  .currentchat {
+    width: 90%;
+  }
+}
+@media (max-width: 1040px) {
+  .currentchat {
+    flex-wrap: wrap;
+  }
+  .messagefield {
+    width: 100%;
+  }
+  .chatprofile {
+    width: 100%;
+  }
+  .oppchat {
+    margin: 0 500px 0 0;
+  }
+  .mychat,
+  .oppchat {
+    width: 350px;
+  }
+}
+@media (max-width: 1038px) {
+  .currentchat {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1035px) {
+  .currentchat {
+    width: 80%;
+  }
+  .messagefield {
+    gap: 0;
+  }
+}
+@media (max-width: 1030px) {
+  .currentchat {
+    width: 100%;
+  }
+}
+@media (max-width: 935px) {
+  .currentchat {
+    width: 100%;
+  }
+}
+@media (max-width: 930px) {
+  .currentchat {
+    width: 90%;
+  }
+}
+@media (max-width: 923px) {
+  .currentchat {
+    width: 100%;
+  }
+}
+@media (max-width: 908px) {
+  .oppchat {
+    margin: 0 500px 0 0;
+  }
+  .messagebox {
+    width: 200px;
+  }
+  .messagebox {
+    margin: 0 200px 0 0;
+  }
+}
 @media (max-width: 768px) {
   .currentchat {
     flex-wrap: wrap;
@@ -147,9 +216,21 @@
       width: 600px;
     }
   }
+  @media (max-width: 685px) {
+    .messagefield {
+      align-items: center;
+    }
+    .oppchat {
+      margin: 0 200px 0 0;
+    }
+    .mychat {
+      margin: 0 2px 0 0;
+    }
+  }
   @media (max-width: 480px) {
     .currentchat {
       flex-wrap: wrap;
+      width: 100%;
     }
     .mychat,
     .oppchat {
@@ -158,15 +239,18 @@
     }
     .messagefield {
       display: flex;
-      align-items: flex-start;
+      align-items: flex-end;
       gap: 20px;
       width: 100%;
     }
     .mychat {
-      margin: 0 0 0 170px;
+      margin: 0;
     }
     #textbox {
-      width: 330px;
+      width: 300px;
+    }
+    .messagebox {
+      margin: 0 200px 0 0;
     }
   }
 }

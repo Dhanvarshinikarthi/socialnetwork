@@ -3,6 +3,7 @@ import "./currentpage.css";
 import tick from "../../../assets/icons/tick.png";
 import send from "../../../assets/icons/send.png";
 const Currentchatpage = () => {
+  const [onButton, setOnbutton] = React.useState(false);
   return (
     <div className="currentchat">
       <div className="chatprofile">
@@ -24,7 +25,15 @@ const Currentchatpage = () => {
           </p>
           <button>Message</button>
         </div>
-        <button id="active">Follow</button>
+        {!onButton ? (
+          <button id="active" onClick={() => setOnbutton(true)}>
+            Follow
+          </button>
+        ) : (
+          <button id="active" onClick={() => setOnbutton(false)}>
+            Unfollow
+          </button>
+        )}
       </div>
       <div className="messagefield">
         <div className="mychat">

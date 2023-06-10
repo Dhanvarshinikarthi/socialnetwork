@@ -100,3 +100,26 @@
   margin: 30px;
   gap: 10px;
 }
+@media (max-width: 590px) {
+  .mediacardsheading > h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 652px) {
+  .mediacardsheading {
+    margin: 0;
+  }
+}
+@media (max-width: 620px) {
+  .mediacardsheading {
+    width: 400px;
+  }
+  .mediacardsheading > h1 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 530px) {
+  .profileinfo {
+    width: 400px;
+  }
+}
