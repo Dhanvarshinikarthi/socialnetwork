@@ -139,12 +139,18 @@ a:hover {
     width: 80%;
   }
   .newscards {
-    width: 60%;
+    width: 80%;
   }
   .artindustry {
-    width: 60%;
+    width: 80%;
   }
   .news_description {
-    width: 60%;
+    width: 80%;
+  }
+  .latest_views {
+    gap: 60px;
+  }
+  .newsviews {
+    gap: 60px;
   }
 }
