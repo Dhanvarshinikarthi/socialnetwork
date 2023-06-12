@@ -4,7 +4,7 @@
   /* gap: 10px; */
   /* justify-content: space-between; */
   /* width: 100%; */
-  gap: 50px;
+  gap: 10px;
   margin: 20px 0;
 }
 .wallcontent {
@@ -16,7 +16,7 @@
 .wall_news {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 10px;
 }
 /* @media (max-width: 1608px) {
   .wall_news {
