@@ -133,9 +133,18 @@ a:hover {
 @media (max-width: 480px) {
   .newsfeedlist > img {
     width: 100px;
-    height: 200px;
+    height: 120px;
   }
   .newscards_main {
     width: 80%;
+  }
+  .newscards {
+    width: 60%;
+  }
+  .artindustry {
+    width: 60%;
+  }
+  .news_description {
+    width: 60%;
   }
 }
