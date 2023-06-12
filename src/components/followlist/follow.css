@@ -158,15 +158,15 @@
 }
 @media (max-width: 480px) {
   .followprofile_main {
-    gap: 100px;
+    gap: 10px;
   }
   .followcards {
-    gap: 100px;
+    gap: 10px;
   }
   .follow_main {
-    width: 85%;
+    width: 100%;
   }
   .heading {
-    width: 85%;
+    width: 100%;
   }
 }

@@ -135,7 +135,7 @@ span {
 }
 @media (max-width: 480px) {
   .newsfeedheader_main {
-    gap: 100px;
+    gap: 10px;
   }
   .newsfeed_main {
     width: 100%;
