@@ -33,3 +33,8 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: 1245px) {
+  .wall_news {
+    flex-wrap: wrap;
+  }
+}
