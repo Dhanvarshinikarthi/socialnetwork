@@ -1,23 +1,28 @@
 .wall_list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  /* gap: 10px; */
   justify-content: space-between;
-  width: 100%;
-  margin: 20px 0;
+  /* width: 100%; */
+  margin: 20px 15px;
 }
 .wallcontent {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 70%;
+  gap: 20px;
+  /* width: 70%; */
 }
 .wall_news {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 50px;
 }
-@media (max-width: 1608px) {
+/* @media (max-width: 1608px) {
+  .wall_news {
+    flex-wrap: wrap;
+  }
+} */
+@media (max-width: 1433px) {
   .wall_news {
     flex-wrap: wrap;
   }
