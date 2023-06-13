@@ -164,9 +164,12 @@
     gap: 10px;
   }
   .follow_main {
-    width: 100%;
+    width: 50%;
   }
   .heading {
-    width: 100%;
+    width: 50%;
+  }
+  .profile {
+    gap: 0;
   }
 }
