@@ -164,10 +164,10 @@
     gap: 10px;
   }
   .follow_main {
-    width: 70%;
+    width: 90%;
   }
   .heading {
-    width: 70%;
+    width: 90%;
   }
   .profile {
     gap: 0;
@@ -175,7 +175,7 @@
   .follow_user {
     border-radius: 50%;
     background-color: rgb(226, 225, 225);
-    width: 50px;
+    width: 150px;
     height: 70px;
   }
 }
