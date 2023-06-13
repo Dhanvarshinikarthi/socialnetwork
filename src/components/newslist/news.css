@@ -110,6 +110,7 @@ a:hover {
     width: 100px;
     height: 100px;
   }
+
   p {
     font-size: 20px;
   }
@@ -135,6 +136,10 @@ a:hover {
     width: 100px;
     height: 160px;
   }
+  .newsfeed > img {
+    width: 100px;
+    height: 160px;
+  }
   .newscards_main {
     width: 90%;
   }
@@ -152,5 +157,14 @@ a:hover {
   }
   .newsviews {
     gap: 60px;
+  }
+  p {
+    font-size: 15px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .newscards_main h5 {
+    font-size: 15px;
   }
 }
