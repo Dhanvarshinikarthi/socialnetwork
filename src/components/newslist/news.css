@@ -133,7 +133,7 @@ a:hover {
 @media (max-width: 480px) {
   .newsfeedlist > img {
     width: 100px;
-    height: 120px;
+    height: 160px;
   }
   .newscards_main {
     width: 90%;
