@@ -138,9 +138,12 @@ span {
     gap: 10px;
   }
   .newsfeed_main {
-    width: 76%;
+    width: 80%;
   }
   .reactions {
-    gap: 0;
+    gap: 5px;
+  }
+  .posts {
+    gap: 10px;
   }
 }
